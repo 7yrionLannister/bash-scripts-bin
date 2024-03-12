@@ -1,0 +1,5 @@
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/local/java/jdk1.8.0_281/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/local/java/jdk1.8.0_281/bin/javac" 1
+sudo update-alternatives --set java /usr/local/java/jdk1.8.0_281/bin/java
+sudo update-alternatives --set javac /usr/local/java/jdk1.8.0_281/bin/javac
+export JAVA_HOME=/usr/local/java/jdk1.8.0_281/

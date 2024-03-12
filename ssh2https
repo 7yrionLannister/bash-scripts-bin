@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Transform ssh URLs to https for git
+
+sshinhttps="${1/:/\/}"
+sshinhttps="${sshinhttps/git@/https:\/\/}"
+echo $sshinhttps
+

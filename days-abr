@@ -1,0 +1,8 @@
+#!/bin/bash
+# Demonstrate a little bit about arrays
+
+days=(Sun Mon Tue Wed)
+days+=(Thu Fri Sat)
+for i in ${days[*]}; do
+	echo $i
+done

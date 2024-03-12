@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Transform https URLs to SSH for git
+
+httpsinssh="${1/https:\/\//git@}"
+httpsinssh="${httpsinssh/\//:}"
+echo $httpsinssh
+

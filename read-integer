@@ -1,0 +1,31 @@
+#!/bin/bash
+# read-integer: evaluate the value of an integer.
+
+echo -n "Please enter an integer -> "
+# read command reads from standard input or from a file, and assings the read data to the specified variable
+# if no variable is provided, read stores the read data in "$REPLY"
+read int
+# Here we use the extended test "[[ commands ]]" to check whether the variable "$int" matches the regular expression
+# The regular expression tells that an optional '-' character may appear at the beggining '^' of "$int", and that it must contain the positive closure
+# 	of the digits set, that is, a string containing a number of at least one digit
+if [[ "$int" =~ ^-?[0-9]+$ ]]; then
+	if [ "$int" -eq 0 ]; then
+		echo "$int is zero."
+	else
+		if [ "$int" -lt 0 ]; then
+			echo "$int is negative."
+		else
+			echo "$int is positive."
+		fi
+		if [ $((int % 2)) -eq 0 ]; then
+			echo "$int is even."
+		else
+			echo "$int is odd."
+		fi
+	fi
+else
+	# redirect the output of echo to stderr
+	echo "Input value is not an integer." >&2
+	# exit with output code 1, which means something went bad
+	exit 1
+fi

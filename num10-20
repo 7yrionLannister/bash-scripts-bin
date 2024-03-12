@@ -1,0 +1,14 @@
+#!/bin/bash
+
+typeset -i numero
+
+read -p "Introduzca un número > " numero
+
+if (( $numero < 20 && $numero > 10 )); then
+    echo "El número está en el intervalo (10,20)"
+else
+    echo "El número está por fuera del intervalo (10,20)"
+fi
+
+# test $numero -lt 20 -a $numero -gt 10
+# echo "¿El número está en el intervalo (10,20)? (0=sí; 1=no)> $?"

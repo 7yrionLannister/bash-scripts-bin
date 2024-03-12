@@ -1,0 +1,10 @@
+#!/bin/bash
+# backup important stuff to a external drive
+BACKUP_DIR=$1
+rsync -av /home/daniel/bin ${BACKUP_DIR}
+rsync -av /home/daniel/Documents ${BACKUP_DIR}
+rsync -av /home/daniel/.bashrc ${BACKUP_DIR}
+rsync -av /home/daniel/.themes ${BACKUP_DIR}
+rsync -av /home/daniel/Downloads ${BACKUP_DIR}
+rsync -av /home/daniel/ingesoft ${BACKUP_DIR}
+rsync -av /home/daniel/otrows ${BACKUP_DIR}

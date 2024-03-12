@@ -1,0 +1,16 @@
+#!/bin/bash
+
+typeset username
+
+read -p "Introduzca el nombre de usuario > " username
+
+exec 7< /etc/passwd # abre el archivo en modo lectura
+
+while read -u7 line; do # itera en el archivo linea por linea
+    if [[ $line =~ ^$username: ]]; then
+        echo $username
+        exit 0
+    fi
+done
+
+echo "El usuario no existe"

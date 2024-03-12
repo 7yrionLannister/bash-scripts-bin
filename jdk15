@@ -1,0 +1,5 @@
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/local/java/jdk-15.0.2/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/local/java/jdk-15.0.2/bin/javac" 1
+sudo update-alternatives --set java /usr/local/java/jdk-15.0.2/bin/java
+sudo update-alternatives --set javac /usr/local/java/jdk-15.0.2/bin/javac
+export JAVA_HOME=/usr/local/java/jdk-15.0.2

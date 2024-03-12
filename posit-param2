@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Script to display all arguments (large number of arguments)
+
+count=1
+
+while [[ $# -gt 0 ]]; do
+	echo "Argument $count = $1"
+	count=$((count + 1))
+	# shift moves the arguments one up: $1 now holds the value of $2, $2 the one of $3 and so on
+	shift
+done

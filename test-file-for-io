@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>System Information Report For daniel-X441UVK</title>
+</head>
+<body>
+<h1>System Information Report For daniel-X441UVK</h1>
+<p>Generated 27/10/21 09:25:12 PM -05, by daniel</p>
+<h2>System Uptime</h2>
+<pre> 21:25:12 up 14:50,  1 user,  load average: 0,83, 1,28, 1,35</pre>
+<h2>Disk Space Utilization</h2>
+<pre>Filesystem      Size  Used Avail Use% Mounted on
+udev            5,8G     0  5,8G   0% /dev
+tmpfs           1,2G   18M  1,2G   2% /run
+/dev/sdb3        55G   23G   30G  44% /
+tmpfs           5,8G   62M  5,8G   2% /dev/shm
+tmpfs           5,0M  4,0K  5,0M   1% /run/lock
+tmpfs           5,8G     0  5,8G   0% /sys/fs/cgroup
+/dev/loop0      128K  128K     0 100% /snap/bare/5
+/dev/loop1       11M   11M     0 100% /snap/canonical-livepatch/105
+/dev/loop2       11M   11M     0 100% /snap/canonical-livepatch/114
+/dev/loop3       38M   38M     0 100% /snap/chromium-ffmpeg/19
+/dev/loop4       17M   17M     0 100% /snap/chromium-ffmpeg/23
+/dev/loop5      100M  100M     0 100% /snap/core/11798
+/dev/loop6      100M  100M     0 100% /snap/core/11993
+/dev/loop7       56M   56M     0 100% /snap/core18/2128
+/dev/loop8       56M   56M     0 100% /snap/core18/2246
+/dev/loop9      163M  163M     0 100% /snap/gnome-3-28-1804/145
+/dev/loop10     165M  165M     0 100% /snap/gnome-3-28-1804/161
+/dev/loop11     219M  219M     0 100% /snap/gnome-3-34-1804/66
+/dev/loop12     219M  219M     0 100% /snap/gnome-3-34-1804/72
+/dev/loop14      66M   66M     0 100% /snap/gtk-common-themes/1519
+/dev/loop13      66M   66M     0 100% /snap/gtk-common-themes/1515
+/dev/loop15      51M   51M     0 100% /snap/snap-store/547
+/dev/loop17      33M   33M     0 100% /snap/snapd/13270
+/dev/loop18     163M  163M     0 100% /snap/spotify/53
+/dev/loop19      51M   51M     0 100% /snap/snap-store/542
+/dev/loop21      33M   33M     0 100% /snap/snapd/13640
+/dev/loop16      27M   27M     0 100% /snap/heroku/4076
+/dev/loop20      27M   27M     0 100% /snap/heroku/4068
+/dev/loop22     162M  162M     0 100% /snap/spotify/54
+/dev/loop23     296M  296M     0 100% /snap/vlc/2288
+/dev/loop24     296M  296M     0 100% /snap/vlc/2344
+/dev/sda2       260M   31M  229M  12% /boot/efi
+/dev/sdb4        92G   73G   15G  84% /home
+tmpfs           1,2G  100K  1,2G   1% /run/user/1000
+/dev/sdb2       783G  378G  405G  49% /media/daniel/DATA
+/dev/loop25      62M   62M     0 100% /snap/core20/1169
+/dev/loop26     9,5M  9,5M     0 100% /snap/htop/3233</pre>
+<h2>Home Space Utilization (daniel)</h2>
+<H3>/home/daniel</H3>
+<pre>
+    Dirs     Files      Size
+    ----     -----      ----
+   83327    483850       73G
+</pre>
+</body>
+</html>
